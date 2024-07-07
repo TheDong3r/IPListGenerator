@@ -13,7 +13,7 @@ def print_ipv4_addresses_from_cidr(cidr: str, output_file=None):
         
         # Collect each IP address in the network
         for index, ip in enumerate(net_ipv4_address, start=1):
-            line = f"{index}: {ip}\n"
+            line = f"{ip}\n"
             output_lines.append(line)
         
         # Print results or errors to console
